@@ -1,0 +1,28 @@
+<span id="favorite" data-pk="{ {favorite }}" class="h1" style="color: #FCAC45;">
+    {% if favorite %}
+        <i class="fa fa-star"
+           data-toggle="tooltip" data-placement="right" title="В избранном "></i>
+    {% else %}
+        <i class="fa fa-star-o"
+           data-toggle="tooltip" data-placement="right" title="Добавить в избранные"></i>
+    {% endif %}
+</span>
+
+<script>
+    $('#favorite').click(function () {
+        $.ajaxSetup({async: false});
+        $.get('{% url "shop:favorite" scarf.id %}', function (data) {
+            $('#favorite_div').html(data);
+        });
+        $.get('{% url "shop:ajax_menu" %}', function (data) {
+            $('#menu_div').html(data);
+        });
+        $.get('{% url "shop:ajax_favorites" %}', function (data) {
+            $('#favorites_div').html(data);
+        });
+    });
+
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>

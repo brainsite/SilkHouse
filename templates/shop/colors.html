@@ -1,0 +1,19 @@
+{% extends 'shop/base.html' %}
+{% load thumbnail %}
+{% load scarf %}
+
+{% block title %} silkhouse.ru Каталог платков по цвету{% endblock %}
+
+
+{% block body %}
+    <h1 class="text-center">  Каталог платков по цвету <small>длинной нити</small> </h1>
+
+    {% for color in colors_list %}
+        <div class="row" >
+            {% color_row color %}
+        </div>
+    {% endfor %}
+
+{% endblock %}
+
+

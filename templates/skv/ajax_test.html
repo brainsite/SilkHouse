@@ -1,0 +1,42 @@
+{% extends 'skv/base.html' %}
+
+{% load ajax_test %}
+
+{% block title %} silkhouse.ru {% endblock %}
+
+
+{% block body %}
+    <div class="row">
+
+        <div class="col-md-3">
+            <button id="favorite" data-test="test_data" class="btn btn-primary" type="button">
+                <span class="glyphicon glyphicon-thumbs-up"></span> Like
+            </button>
+
+{#            Template teg ajax_test#}
+            {% btn %}
+        </div>
+
+        <div class="col-md-3">
+            <div id="ajax_div">{{ category.likes }}</div>
+        </div>
+
+    </div>
+
+    <script>
+
+$('#favorite').click(function () {
+    var test_data;
+    test_data = $(this).attr("data-test");
+{#    $.get('{% url "skv:ajax_test" %}', {test_data: 'test'}, function(data){#}
+{#    http://127.0.0.1:8010/skv/ajax/test?test_data=test#}
+    $.get('{% url "skv:ajax_test" %}', {test_data: test_data}, function (data) {
+        $('#ajax_div').html(data);
+{#        $('#favorite').hide();#}
+    });
+});
+
+    </script>
+{% endblock %}
+
+

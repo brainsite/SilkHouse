@@ -1,0 +1,44 @@
+{% extends 'silk/base.html' %}
+
+
+{% block title %} silkhouse.ru {% endblock %}
+
+
+{% block body %}
+    <div class="row">
+        <div class="col-md-3">
+
+            {#      <p class="text-center h2">#}
+            {#          <a href="#">Галерея</a>#}
+            {#      </p>#}
+
+            <br>
+
+            <div class="btn-group btn-group-justified" role="group">
+                <a class="btn btn-default" href="#"><p class="h4">Галерея</p></a>
+            </div>
+            <br>
+
+            {#      <div class="btn-group-vertical" role="group">#}
+            {#          <a class="btn btn-default" href="#">Галерея</a>#}
+            {#      </div>#}
+
+            <div class="list-group text-center h4">
+                <a href="#" class="list-group-item">Мужские</a>
+                <a href="#" class="list-group-item">Разноцветные</a>
+                <a href="#" class="list-group-item">Палантины</a>
+                <a href="#" class="list-group-item">Тонкий шёлк</a>
+                <a href="#" class="list-group-item">Плотный шёлк</a>
+            </div>
+        </div>
+
+
+        <div class="col-md-9">
+            <div class="row">
+                {% include 'silk/extra/thumbnails.html' %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+

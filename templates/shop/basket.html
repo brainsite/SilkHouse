@@ -1,0 +1,82 @@
+{% extends 'shop/base.html' %}
+{% load thumbnail %}
+{% load scarf %}
+
+{% block title %} silkhouse.ru - Оформление заказа {% endblock %}
+
+{#http://bootsnipp.com/snippets/featured/shopping-cart-bs-2#}
+
+{% block body %}
+
+    <h1 class="text-center"><i class="fa fa-shopping-cart"></i></h1>
+
+            <div class="row">
+{#                {% for key, value in basket.items %}#}
+                {% for scarf in scarfs %}
+                <div class="col-md-4">
+{#                    <p class="h1">{{ value }}шт. {{ scarfs }}</p>#}
+                    {% scarf_thumbnail scarf.id %}
+                </div>
+                <div class="col-md-2">
+                    <p class="h1"> {{ basket|get_item:scarf.id }} * {{ scarf.price }}</p>
+                </div>
+                <div class="col-md-2">
+                    <p class="h1"> subsumm </p>
+                </div>
+                {% endfor %}
+            </div>
+
+            <br>
+
+    <div class="row">
+
+        <div class="col-md-7">
+
+            <div class="row">
+                <div class="col-md-12">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-1">
+        </div>
+
+        <div class="col-md-4">
+        </div>
+
+    </div>
+
+{% endblock %}
+
+{#            <hr>#}
+{##}
+{#            <div class="row">#}
+{#                <div class="col-md-6">#}
+{#                    <div id="favorite_div" class="text-left">#}
+{#                        {% include 'shop/include/favorite_btn.html' %}#}
+{#                    </div>#}
+{#                </div>#}
+{#                <div class="col-md-6">#}
+{#                </div>#}
+{#            </div>#}
+{##}
+{#            <hr>#}
+{##}
+{#            <div class="row">#}
+{#                <div class="col-md-12">#}
+{#                    <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample"#}
+{#                       aria-expanded="false" aria-controls="collapseExample">#}
+{#                        Link with href#}
+{#                    </a>#}
+{#                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"#}
+{#                            aria-expanded="false" aria-controls="collapseExample">#}
+{#                        Button with data-target#}
+{#                    </button>#}
+{#                    <div class="collapse" id="collapseExample">#}
+{#                        <div class="well">#}
+{#                            ...#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}

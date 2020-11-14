@@ -1,0 +1,13 @@
+# https://github.com/mariocesar/sorl-thumbnail
+sorl-thumbnail==11.12.1b
+Pillow
+# http://django-crispy-forms.readthedocs.org
+django-crispy-forms
+# https://github.com/elky/django-flat-theme
+django-flat-theme
+# http://djbook.ru/rel1.7/topics/localflavor.html
+django-localflavor
+#
+# Server
+psycopg2
+redis

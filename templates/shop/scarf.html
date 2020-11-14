@@ -1,0 +1,82 @@
+{% extends 'shop/base.html' %}
+{% load thumbnail %}
+{% load scarf %}
+
+{% block title %} silkhouse.ru {{ scarf }} {% endblock %}
+
+{% block body %}
+
+    <div class="row">
+{#        <div class="col-md-1">#}
+{#        </div>#}
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-12">
+                    {% thumbnail scarf.img "1500x750" crop="center" as im %}
+                        <a href="{{ scarf.img.url }}" target="_blank">
+                            <img class="img-responsive" src="{{ im.url }}" data-toggle="magnify">
+                        </a>
+                    {% endthumbnail %}
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            {% include 'shop/include/product_info_panel_wrapper.html' %}
+            <div class="row">
+                <div id="basket_btn_div" class="col-md-12">
+                    {% include 'shop/include/basket_btn_product.html' %}
+                </div>
+            </div>
+        </div>
+{#        <div class="col-md-1">#}
+{#        </div>#}
+    </div>
+
+{#    <div class="row">#}
+{#        <div class="col-md-12">#}
+{#            <img src="{{ scarf.img.url }}" class="img-responsive">#}
+{#        </div>#}
+{#    </div>#}
+
+    <nav>
+        <ul class="pager">
+            <li onClick="javascript:history.go(-1);"><a><span class="glyphicon glyphicon-menu-left"></span> Назад</a></li>
+        </ul>
+    </nav>
+
+<script>$('.container img').magnify();</script>
+
+{% endblock %}
+
+{#            <hr>#}
+{##}
+{#            <div class="row">#}
+{#                <div class="col-md-6">#}
+{#                    <div id="favorite_div" class="text-left">#}
+{#                        {% include 'shop/include/favorite_btn.html' %}#}
+{#                    </div>#}
+{#                </div>#}
+{#                <div class="col-md-6">#}
+{#                </div>#}
+{#            </div>#}
+{##}
+{#            <hr>#}
+{##}
+{#            <div class="row">#}
+{#                <div class="col-md-12">#}
+{#                    <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample"#}
+{#                       aria-expanded="false" aria-controls="collapseExample">#}
+{#                        Link with href#}
+{#                    </a>#}
+{#                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"#}
+{#                            aria-expanded="false" aria-controls="collapseExample">#}
+{#                        Button with data-target#}
+{#                    </button>#}
+{#                    <div class="collapse" id="collapseExample">#}
+{#                        <div class="well">#}
+{#                            ...#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}

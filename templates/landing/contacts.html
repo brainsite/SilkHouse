@@ -1,0 +1,45 @@
+{% load crispy_forms_tags %}
+
+
+<div class="row">
+    <div class="col-md-6 text-center">
+        <a href="tel:+79637699317"><h3><span class="glyphicon glyphicon-phone-alt"></span> +7 963 769-9317
+        </h3></a>
+    </div>
+    <div class="col-md-6 text-center">
+        <a href="mailto:sales@silkhouse.ru"><h3><span class="glyphicon glyphicon-envelope"></span>
+            sales@silkhouse.ru </h3></a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <hr>
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4> Задать вопрос </h4>
+            </div>
+            <div class="panel-body">
+                {% crispy mail_form %}
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4> Обратный вызов </h4>
+            </div>
+            <div class="panel-body">
+                {% crispy call_form %}
+            </div>
+        </div>
+    </div>
+
+</div>
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <link rel="icon" type="image/x-icon" href="{% static "favicon.ico" %}">
+
+    <title>{% block title %}{% endblock %}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static "bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+{#    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">#}
+    <!-- Optional theme -->
+{#    <link href="{% static "bootstrap/css/bootstrap-theme.min.css" %}" rel="stylesheet">#}
+{#    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">#}
+    <!-- EXTRA -->
+    <!-- Font awesome -->
+    <link href="{% static "font-awesome/css/font-awesome.min.css" %}" rel="stylesheet">
+{#    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">#}
+{#    https://github.com/marcaube/bootstrap-magnify#}
+    <link href="{% static "bootstrap-magnify/css/bootstrap-magnify.min.css" %}" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="{% static "css/shop.css" %}" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{% static "js/jquery-1.11.2.min.js" %}"></script>
+{#    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>#}
+    <script src="{% static "bootstrap/js/bootstrap.min.js" %}"></script>
+{#    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>#}
+    <!-- EXTRA -->
+{#    http://srobbin.com/jquery-plugins/backstretch/#}
+    <script src="{% static "js/jquery.backstretch.min.js" %}"></script>
+{#    https://github.com/marcaube/bootstrap-magnify#}
+    <script src="{% static "bootstrap-magnify/js/bootstrap-magnify.min.js" %}"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  <!-- Navigation
+  ==========================================-->
+  <div class="container-fluid">
+      {% block head %}{% include "shop/include/base_head.html" %}{% endblock %}
+  </div>
+
+  <div class="container">
+      <div class="content">
+          {% if favorites %}
+              <div class="row">
+                  <div id="favorites_div" class="col-md-12">
+                      {% include 'shop/include/favorite_div.html' %}
+                  </div>
+              </div>
+          {% endif %}
+
+          {% block body %}{% endblock %}
+      </div>
+  </div>
+
+
+  {% block footer  %}{% include "shop/include/base_footer.html" %}{% endblock %}
+
+
+
+  </body>
+</html>

@@ -1,0 +1,18 @@
+{% load static %}
+{% load thumbnail %}
+
+        <div class="view view-third">
+
+            {% with scarf.img as path %}
+                {% thumbnail path "x200" crop="center" as im %}
+                    <img src="{{ im.url }}">
+                {% endthumbnail %}
+            {% endwith %}
+
+            <div class="mask">
+                <h2>{{ scarf.price }} <i class="fa fa-rub"></i></h2>
+
+                <p>в наличие: {{ scarf.count }} шт.</p>
+                <a href="{{ scarf.get_absolute_url }}" class="info">далее <i class="fa fa-chevron-circle-right"></i></a>
+            </div>
+        </div>

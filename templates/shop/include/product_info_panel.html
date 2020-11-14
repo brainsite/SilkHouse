@@ -1,0 +1,27 @@
+<div class="panel-body text-center">
+    <span class="h1">
+            {{ scarf.price }} <i class="fa fa-rub"></i>
+    </span>
+</div>
+
+<ul class="list-group">
+            <li class="list-group-item">В наличии:
+                <span class="badge">{{ scarf.count }} шт. </span></li>
+            <li class="list-group-item">Размер: <span class="badge">175x55 см. </span></li>
+            <li class="list-group-item">Состав: <span class="badge">100% шёлк</span> </li>
+            <li class="list-group-item">Вес: <span class="badge">{{ scarf.weight }} гр.</span> </li>
+
+{#            <li class="list-group-item">Цвет по длине: <span class="badge">{{ scarf.l_color }}</li>#}
+{#            <li class="list-group-item">Цвет по ширине:<span class="badge">#}
+{#                {% for color in scarf.s_color.all %}#}
+{#                    {{ color }}#}
+{#                    {% if not forloop.last %}, {% else %}  {% endif %}#}
+{#                {% endfor %}</span>#}
+{#            </li>#}
+</ul>
+
+{#<div class="panel-body text-center">#}
+{#                    <div id="favorite_div">#}
+{#                        {% include 'shop/include/favorite_btn.html' %}#}
+{#                    </div>#}
+{#</div>#}

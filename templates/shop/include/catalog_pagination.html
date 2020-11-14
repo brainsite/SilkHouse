@@ -1,0 +1,31 @@
+<div class="text-center"
+  <nav>
+    <ul class="pagination">
+
+{#        {% if scarfs.has_previous %}#}
+{#            <li>#}
+{#                <a href="{% url 'shop:catalog_page' scarfs.previous_page_number %}" aria-label="Previous">#}
+{#                    <span aria-hidden="true">&laquo;</span>#}
+{#                </a>#}
+{#            </li>#}
+{#        {% endif %}#}
+
+        {% for page in  scarfs.paginator.page_range %}
+            {% if page == scarfs.number %}
+                <li class="active"><a href="{% url 'shop:catalog_page' page %}">{{ page }}</a></li>
+            {% else %}
+                <li><a href="{% url 'shop:catalog_page' page %}">{{ page }}</a></li>
+            {% endif %}
+        {% endfor %}
+
+{#        {% if scarfs.has_next %}#}
+{#            <li>#}
+{#                <a href="{% url 'shop:catalog_page' scarfs.next_page_number %}" aria-label="Next">#}
+{#                    <span aria-hidden="true">&raquo;</span>#}
+{#                </a>#}
+{#            </li>#}
+{#        {% endif %}#}
+
+    </ul>
+  </nav>
+</div>

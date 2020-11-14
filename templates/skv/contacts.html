@@ -1,0 +1,55 @@
+{% extends 'skv/base.html' %}
+
+{% load crispy_forms_tags %}
+{% load extra %}
+
+{% block title %} Contacts {% endblock %}
+
+{% block body %}
+
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            {% if messages %}
+                <ul class="list-unstyled messages">
+                    {% for message in messages %}
+                        <li class="alert alert-{{ message.tags }}">{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-1">
+        </div>
+
+        <div class="col-md-5">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4> Задать вопрос </h4>
+                </div>
+                <div class="panel-body">
+                    {% crispy mail_form %}
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-5">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4> Обратный вызов </h4>
+                </div>
+                <div class="panel-body">
+                    {% crispy call_form %}
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-1">
+        </div>
+
+    </div>
+{% endblock %}

@@ -1,0 +1,189 @@
+{% extends 'silk/base.html' %}
+{% load staticfiles %}
+
+{% block title %} SKV {% endblock %}
+
+
+{% block body %}
+    <div class="row"><div class="col-md-12 text-center"><h1>Уход за шёлком</h1><hr></div></div>
+{##}
+{#    <div class="row">#}
+{#        <div class="col-md-1"><img class="img-rounded" src="{% static "images/laundry/hand_wash.svg" %}" alt="Hand Wash"></div>#}
+{#        <div class="col-md-6">#}
+{#            <h3>Ручная стирка</h3>#}
+{#            <p>Только ручная стрика. Максимальная температура воды 25 градусов. Не применять сухой стиральный порошок. Стирка только жидкими моющими средствами. Не рекомендуется предварительное «замачивание».</p>#}
+{#        </div>#}
+{#    </div>#}
+{##}
+{#    <div class="row">#}
+{#        <div class="col-md-4">#}
+{#            <div class="thumbnail">#}
+{#                <img src="{% static "images/laundry/hand_wash.svg" %}" alt="Hand Wash">#}
+{#                <div class="caption">#}
+{#                    <h3>Ручная стирка</h3>#}
+{#                    <p>Только ручная стрика. Максимальная температура воды 25 градусов.#}
+{#                        Не применять сухой стиральный порошок. Стирка только жидкими моющими средствами.#}
+{#                        Не рекомендуется предварительное «замачивание».</p>#}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2> Стираем шёлк </h2>
+            <div class="media">
+                <div class="media-left media-middle">
+                    <img class="media-object" style="max-width: 36px;" src="{% static "images/laundry/hand_wash.svg" %}" alt="Hand Wash">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Ручная стирка</h4>
+                    Только ручная стрика. Максимальная температура воды 25 градусов. Не применять сухой стиральный порошок. Стирка только жидкими моющими средствами. Не рекомендуется предварительное «замачивание».
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left media-middle">
+                    <img class="media-object" style="max-width: 36px;" src="{% static "images/laundry/do_not_dryclean.svg" %}" alt="Do Not Dryclean">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Не подвергать химической чистке</h4>
+
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left media-middle">
+                    <img class="media-object" style="max-width: 36px;" src="{% static "images/laundry/do_not_bleach.svg" %}" alt="Do Not Bleach">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Не применять отбеливающие средства</h4>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <h2> Сушим шёлк </h2>
+            <div class="media">
+                <div class="media-left media-middle">
+                    <img class="media-object" style="max-width: 36px;" src="{% static "images/laundry/drip_dry.svg" %}" alt="Drip Dry">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Дайте стечь воде</h4>
+                    Для отжима платка сложить его несколько раз и сжать между ладонями, дать воде стечь.
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left media-middle">
+                    <img class="media-object" style="max-width: 36px;" src="{% static "images/laundry/dry_flat.svg" %}" alt="Dry Flat">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Сушить расправленным</h4>
+                    После отжима платок необходимо расправить и разложить на махровом полотенце.
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left media-middle">
+                    <img class="media-object" style="max-width: 36px;" src="{% static "images/laundry/do_not_wring.svg" %}" alt="Do Not Wring">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Не скручивать</h4>
+
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left media-middle">
+                    <img class="media-object" style="max-width: 36px;" src="{% static "images/laundry/do_not_tumble_dry.svg" %}" alt="Do Not Tumble Dry">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Не сушить в стиральной машине</h4>
+
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left media-middle">
+                    <img class="media-object" style="max-width: 36px;" src="{% static "images/laundry/dry_in_shade.svg" %}" alt="Dry In Shade">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Не сушить на солнце</h4>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <h2> Гладим шёлк </h2>
+            <div class="media">
+                <div class="media-left media-middle">
+                    <img class="media-object" style="max-width: 36px;" src="{% static "images/laundry/iron_low.svg" %}" alt="Iron Low">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Глажка при минимальной температуре</h4>
+
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left media-middle">
+                    <img class="media-object" style="max-width: 36px;" src="{% static "images/laundry/do_not_steam.svg" %}" alt="Do Not Steam">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Не отпаривать</h4>
+                    Не использовать при глажке пар, так как он разрушает структуру волокна.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+{#    <div class="col-md-2">#}
+{#    </div>#}
+{##}
+{#    <div class="col-md-4">#}
+{#        <div class="panel panel-default">#}
+{#            <!-- Default panel contents -->#}
+{#            <div class="panel-heading"><h3>Стирка</h3></div>#}
+{#            <div class="panel-body">#}
+{#                <p>...</p>#}
+{#            </div>#}
+{##}
+{#            <!-- List group -->#}
+{#            <ul class="list-group">#}
+{#                <li class="list-group-item">Только ручная стрика.</li>#}
+{#                <li class="list-group-item">Максимальная температура воды 30 градусов.</li>#}
+{#                <li class="list-group-item">Не применять сухой стиральный порошок.</li>#}
+{#                <li class="list-group-item">Стирка только жидкими моющими средствами (шампунь, ополаскиватель, жидкий стиральный порошок).</li>#}
+{#                <li class="list-group-item">Не применять отбеливающие средства.</li>#}
+{#                <li class="list-group-item">Не рекомендуется предварительное «замачивание».</li>#}
+{#            </ul>#}
+{#        </div>#}
+{#    </div>#}
+{##}
+{#    <div class="col-md-4">#}
+{#        <div class="panel panel-default">#}
+{#            <!-- Default panel contents -->#}
+{#            <div class="panel-heading"><h3>После стирки</h3></div>#}
+{#            <div class="panel-body">#}
+{#                <p>...</p>#}
+{#            </div>#}
+{##}
+{#            <!-- List group -->#}
+{#            <ul class="list-group">#}
+{#                <li class="list-group-item">Для отжима платка сложить его несколько раз и сжать между ладонями, дать воде стечь.</li>#}
+{#                <li class="list-group-item">Запрещено скручивать платок.</li>#}
+{#                <li class="list-group-item">После отжима платок необходимо расправить и разложить на махровом полотенце.</li>#}
+{#                <li class="list-group-item">Глажка при минимальной температуре.</li>#}
+{#                <li class="list-group-item">Не использовать при глажке пар, так как он разрушает структуру волокна.</li>#}
+{#            </ul>#}
+{#        </div>#}
+{#    </div>#}
+
+{% endblock %}

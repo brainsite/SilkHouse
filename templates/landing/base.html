@@ -1,0 +1,274 @@
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Silkhouse - Магазин шёлковых платков</title>
+{#    <meta name="description" content="Spirit8 is a Digital agency one page template built based on bootstrap framework. This template is design by Robert Berki and coded by Jenn Pereira. It is simple, mobile responsive, perfect for portfolio and agency websites. Get this for free exclusively at ThemeForces.com">#}
+{#    <meta name="keywords" content="bootstrap theme, portfolio template, digital agency, onepage, mobile responsive, spirit8, free website, free theme, themeforces themes, themeforces wordpress themes, themeforces bootstrap theme">#}
+{#    <meta name="author" content="ThemeForces.com">#}
+    
+    <!-- Favicons
+    ================================================== -->
+{#    <link rel="shortcut icon" href="../../static/spirit8/img/favicon.ico" type="image/x-icon">#}
+{#    <link rel="apple-touch-icon" href="../../static/spirit8/img/apple-touch-icon.png">#}
+{#    <link rel="apple-touch-icon" sizes="72x72" href="../../static/spirit8/img/apple-touch-icon-72x72.png">#}
+{#    <link rel="apple-touch-icon" sizes="114x114" href="../../static/spirit8/img/apple-touch-icon-114x114.png">#}
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static "bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+{#    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">#}
+    <!-- Optional theme -->
+    <link href="{% static "css/landing.css" %}" rel="stylesheet">
+{#    <link href="{% static "bootstrap/css/bootstrap-theme.min.css" %}" rel="stylesheet">#}
+{#    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">#}
+    <!-- EXTRA -->
+    <!-- Font awesome -->
+    <link href="{% static "font-awesome/css/font-awesome.min.css" %}" rel="stylesheet">
+{#    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">#}
+
+    <!-- Slider
+    ================================================== -->
+    <link href="../../static/spirit8/css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="../../static/spirit8/css/owl.theme.css" rel="stylesheet" media="screen">
+
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="../../static/spirit8/css/responsive.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="../../static/spirit8/js/modernizr.custom.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Navigation
+    ==========================================-->
+    {% include 'shop/include/base_head.html' %}
+{#    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">#}
+{#      <div class="container">#}
+{#        <!-- Brand and toggle get grouped for better mobile display -->#}
+{#        <div class="navbar-header">#}
+{#          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">#}
+{#            <span class="sr-only">Toggle navigation</span>#}
+{#            <span class="icon-bar"></span>#}
+{#            <span class="icon-bar"></span>#}
+{#            <span class="icon-bar"></span>#}
+{#          </button>#}
+{#          <a class="navbar-brand" href="{% url 'home' %}">silkhouse.ru</a>#}
+{#        </div>#}
+{##}
+{#        <!-- Collect the nav links, forms, and other content for toggling -->#}
+{#        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">#}
+{#          <ul class="nav navbar-nav navbar-right">#}
+{#            <li><a href="#tf-home" class="page-scroll"><span class="glyphicon glyphicon-home"></span></a></li>#}
+{#            <li><a href="#tf-about" class="page-scroll">О платках</a></li>#}
+{#            <li><a href="#tf-market" class="page-scroll">Каталог</a></li>#}
+{#            <li><a href="#tf-care" class="page-scroll">Уход</a></li>#}
+{#            <li><a href="#tf-delivery" class="page-scroll">Доставка и Оплата</a></li>#}
+{#            <li><a href="#tf-reviews" class="page-scroll">Отзывы</a></li>#}
+{#            <li><a href="#tf-contact" class="page-scroll">Контакты</a></li>#}
+{##}
+{#              {% include 'shop/include/base_menu.html' %}#}
+{##}
+{#          </ul>#}
+{#        </div><!-- /.navbar-collapse -->#}
+{#      </div><!-- /.container-fluid -->#}
+{#    </nav>#}
+
+    <!-- Home Page
+    ==========================================-->
+    <div id="tf-home" class="text-center">
+        <div class="overlay">
+            <div class="content">
+                <h1><strong><span class="color">silkhouse.ru</span></strong></h1>
+                <p class="lead">специально для вас <strong>Бенареский шёлк</strong> ручной работы</p>
+                <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Page
+    ==========================================-->
+    <div id="tf-about">
+        <div class="container">
+            {% include 'landing/about.html' %}
+        </div>
+    </div>
+
+    <!-- Market Section
+    ==========================================-->
+
+    <div id="tf-market">
+
+        <a href="{% url 'shop:home' %}">
+        <div class="img-row">
+            <div class="overlay">
+                <div class="section-title center text-center">
+                    <h2><strong>Магазин</strong></h2>
+                    <h4> На данный момент доступно более {{ scarfs_count }} расцветок</h4>
+                    <div class="line"><hr></div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        </a>
+
+
+        <div class="container"> <!-- Container -->
+            <div class="col-lg-12">
+                <div class="section-title text-center center">
+                    {% include 'landing/catalog.html' %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Care Section
+    ==========================================-->
+    <div id="tf-care">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title center text-center">
+                            <h4>Ухаживаем за </h4>
+                            <h2><strong>Шёлком </strong></h2>
+                            <h4>правильно</h4>
+                            <div class="line"><hr></div>
+                        </div>
+                        {% include 'landing/care.html' %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Delivery Section
+    ==========================================-->
+    <div id="tf-delivery">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="section-title center text-center">
+                        <h2><strong>Доставка</strong></h2>
+                        <h4>и</h4>
+                        <h2><strong>Оплата</strong></h2>
+                        <div class="line"><hr></div>
+                    </div>
+                    {% include 'landing/delivery.html' %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reviews Section
+    ==========================================-->
+    <div id="tf-reviews">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-title center text-center">
+                            <h2><strong>Отзывы</strong></h2>
+                            <h4>о нашем платке</h4>
+
+                            <div class="line">
+                                <hr>
+                            </div>
+                        </div>
+                        {% include 'landing/reviews.html' %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section
+    ==========================================-->
+    <div id="tf-contact" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="section-title center">
+                        <h2><strong>Контакты</strong></h2>
+                        <div class="line">
+                            <hr>
+                        </div>
+                        <div class="clearfix">
+                        </div>
+                        <small><em>Если у вас остались вопросы, мы будем рады ответить на них.</em></small>
+                    </div>
+                    {% include 'landing/contacts.html'%}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Example
+    ==========================================-->
+{#    <div class="img-row">#}
+{#        <div class="overlay">#}
+{#            <div class="section-title center text-center">#}
+{#                <h2>Ухаживаем за <strong>Шелком правильно</strong></h2>#}
+{#                <div class="line">#}
+{#                    <hr>#}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+
+{#    <div class="blank-row">#}
+{#            <div class="section-title center text-center">#}
+{#                <h2>Доставка <strong>и</strong> оплата</h2>#}
+{#                <div class="line">#}
+{#                    <hr>#}
+{#                </div>#}
+{#            </div>#}
+{#    </div>#}
+
+    <nav id="footer">
+        <div class="container">
+            <div class="pull-left nav">
+{#                <p>ALL RIGHTS RESERVED. COPYRIGHT © 2014. Designed by <a href="https://dribbble.com/shots/1817781--FREEBIE-Spirit8-Digital-agency-one-page-template" target="_blank">Robert Berki</a> and Coded by <a href="https://dribbble.com/jennpereira" target="_blank">Jenn Pereira</a></p>#}
+                <p><a href="http://silkhouse.ru">silkhouse.ru</a></p>
+            </div>
+            <div class="pull-right nav">
+                <ul class="footer-social">
+                    <li><a href="https://vk.com/silkhouse_ru"><i class="fa fa-vk"></i></a></li>
+                    <li><a href="https://instagram.com/silkhouse.ru/"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+{#    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>#}
+    <script type="text/javascript" src="../../static/spirit8/js/jquery.1.11.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="../../static/spirit8/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../../static/spirit8/js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="../../static/spirit8/js/jquery.isotope.js"></script>
+
+    <script src="../../static/spirit8/js/owl.carousel.js"></script>
+
+    <!-- Javascripts
+    ================================================== -->
+    <script type="text/javascript" src="../../static/spirit8/js/main.js"></script>
+
+  </body>
+</html>

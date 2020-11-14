@@ -1,0 +1,16 @@
+{% load extra %}
+
+<div class="row">
+    <div class="col-md-12 text-center" style="background: #e7b91b;">
+        <br><span class='h1'><a href="{% url 'skv' %}"> SKV </a></span><br><br>
+    </div>
+</div>
+
+<div class="row">
+    <ul class="nav nav-pills nav-justified" style="background: #8f710e;">
+        <li class="{% active_page request 'skv:silk_about' %}"><a href="{% url 'skv:silk_about' %}">О платках</a></li>
+        <li class="{% active_page request 'skv:silk_delivery' %}"><a href="{% url 'skv:silk_delivery' %}">Оплата и Доставка</a></li>
+        <li class="{% active_page request 'skv:silk_contacts' %}"><a href="{% url 'skv:silk_contacts' %}">Контакты</a></li>
+        <li class="{% active_page request 'skv:silk_care' %}"><a href="{% url 'skv:silk_care' %}">Уход за платками</a></li>
+    </ul>
+</div>

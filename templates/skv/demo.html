@@ -1,0 +1,40 @@
+{% extends 'skv/base.html' %}
+
+{% load i18n %}
+
+{% block title %} SKV Demo {% endblock %}
+
+{% block body %}
+
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center"> Demo </h1>
+
+            <h2> Color Box </h2>
+
+            <div class="foo" style="background-color:#13b4ff;"></div>
+            <div class="foo" style="background-color:#ab3fdd;"></div>
+            <div class="foo" style="background-color:#ae163e;"></div>
+
+            <style>
+                .foo {
+                    float: left;
+                    width: 20px;
+                    height: 20px;
+                    margin: 5px;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: rgba(0, 0, 0, .2);
+                }
+            </style>
+
+
+            <h2> Passadvice </h2>
+            <ins class="PassadviceWidget" data-user="1" data-action="1" style="display: inline-block; width: 1202px; height: 150px;"></ins>
+            <script async src="http://dev.passadvice.me:8000/static/js/ext.js"></script>
+
+
+        </div>
+    </div>
+    
+{% endblock %}

@@ -1,0 +1,64 @@
+{% if in_basket %}
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+        <div class="btn-group" role="group">
+            <button id="basket_btn_remove" type="button" class="btn btn-warning">
+               <span class="h2"><i class="fa fa-minus-circle"></i></span>
+            </button>
+        </div>
+        <div class="btn-group" role="group">
+            <a type="button" class="btn btn-warning" href="{% url 'shop:basket' %}">
+                <span class="h2"><i class="fa fa-shopping-cart"> ({{ in_basket }})</i></span>
+            </a>
+        </div>
+        <div class="btn-group" role="group">
+            <button id="basket_btn_add" type="button" class="btn btn-warning {% if scarf.count <= in_basket %} disabled {% endif %}">
+                <span class="h2"><i class="fa fa-plus-circle"></i></span>
+            </button>
+        </div>
+
+    </div>
+{% else %}
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+        <div class="btn-group" role="group">
+            <button id="basket_btn_add" type="button" class="btn btn-warning">
+                <span class="h1"><i class="fa fa-cart-plus"></i> </span><span class="h3"> в корзину</span>
+            </button>
+        </div>
+    </div>
+{% endif %}
+
+<script>
+    $('#basket_btn_add').click(function () {
+        $.ajaxSetup({async: false});
+        $.get('{% url "shop:basket_add" scarf.id %}', function (data) {
+            $('#basket_btn_div').html(data);
+        });
+        $.get('{% url "shop:ajax_menu" %}', function (data) {
+            $('#menu_div').html(data);
+        });
+    });
+
+    $('#basket_btn_remove').click(function () {
+        $.ajaxSetup({async: false});
+        $.get('{% url "shop:basket_remove" scarf.id %}', function (data) {
+            $('#basket_btn_div').html(data);
+        });
+        $.get('{% url "shop:ajax_menu" %}', function (data) {
+            $('#menu_div').html(data);
+        });
+    });
+
+    $('#basket_btn_drop').click(function () {
+        $.ajaxSetup({async: false});
+        $.get('{% url "shop:basket_drop" scarf.id %}', function (data) {
+            $('#basket_btn_div').html(data);
+        });
+        $.get('{% url "shop:ajax_menu" %}', function (data) {
+            $('#menu_div').html(data);
+        });
+    });
+
+    {#    $(function () {#}
+    {#        $('[data-toggle="tooltip"]').tooltip()#}
+    {#    })#}
+</script>

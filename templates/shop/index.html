@@ -1,0 +1,47 @@
+{% extends 'shop/base.html' %}
+{% load scarf %}
+
+{% block title %}
+
+{% endblock %}
+
+{% block body %}
+
+    {% if tittle %}
+        <h1 class="text-center">{{ tittle }}
+        {% if subtittle %}
+            <small>{{ subtittle }}</small>
+        {% endif %}</h1>
+    {% endif %}
+{#    {% if favorites %}#}
+{#    <br>#}
+{#    <div class="row">#}
+{#        <div class="col-md-12">#}
+{#        {% include 'shop/extra/info_pannel_favorite_row.html' %}#}
+{#        </div>#}
+{#    </div>#}
+{#    {% endif %}#}
+
+    <div class="row">
+
+{#        <div class="col-md-3">#}
+{#            {% include 'shop/extra/filter.html' %}#}
+{#        </div>#}
+
+{#        <div class="col-md-9">#}
+            {% for scarf in scarfs %}
+                <div class="col-sm-12 col-md-3">
+                    {% scarf_thumbnail pk=scarf.id %}
+                </div>
+            {% endfor %}
+    </div>
+
+            <div class="row">
+                {% include 'shop/include/catalog_pagination.html' %}
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
+
+

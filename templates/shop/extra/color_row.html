@@ -1,0 +1,16 @@
+{% load scarf %}
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="text-right">
+                            <span style="background-color: {{ color.code }};" class="glyphicon glyphicon-th"></span> {{ color.translate }}
+                        </h1>
+                        <hr>
+                    </div>
+                </div>
+
+        {% for scarf in scarfs %}
+            <div class="col-md-3">
+               {% scarf_thumbnail scarf.id %}
+            </div>
+        {% endfor %}

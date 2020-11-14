@@ -1,0 +1,53 @@
+{% extends 'shop/base.html' %}
+{% load thumbnail %}
+
+
+{% block title %} silkhouse.ru {{ scarf }} {% endblock %}
+
+
+{% block body %}
+
+    <div class="row">
+        <div class="col-md-6">
+{#                <div class="row">#}
+{#                    <div class="col-md-12">#}
+{#                            {% thumbnail scarf.img "600x400" crop="center" as im %}#}
+{#                                <a href="{{ scarf.img.url }}" target="_blank">#}
+{#                                    <img class="img-responsive" src="{{ im.url }}">#}
+{#                                </a>#}
+{#                            {% endthumbnail %}#}
+{#                    </div>#}
+{#                </div>#}
+        </div>
+        <div class="col-md-1">
+        </div>
+
+
+        <div class="col-md-5">
+            <h2>{{ scarf }}</h2>
+            <h5>В наличии: {{ scarf.count }} шт. </h5>
+            <h5>Цена: {{ scarf.price }} руб. </h5>
+            <h5>Размер: 175x55 см. </h5>
+            <h5>Вес: {{ scarf.weight }} гр. </h5>
+            <h5>Цвет длинной нити: {{ scarf.l_color }}</h5>
+            <h5>Цвет короткой нити:
+                {% for color in scarf.s_color.all %}
+                    {{ color }}
+                    {% if not forloop.last %}, {% else %}  {% endif %}
+                {% endfor %}
+            </h5>
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+    $( document ).ready(function() {
+        {% thumbnail scarf.img "1920" upscale=True as im %}
+        $("body").backstretch("{{ im.url }}");
+        {% endthumbnail %}
+    });
+    </script>
+
+{% endblock %}
+
+

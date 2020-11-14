@@ -1,0 +1,58 @@
+<div class="row">
+    <div class="col-md-8 col-md-offset-2 text-center">
+        <div id="testimonial" class="owl-carousel owl-theme">
+            <div class="item">
+                <p>Это мой любимый платок, не растаюсь с ним с того момента как купила его. </p>
+
+                <p><strong>Василиса</strong></p>
+            </div>
+
+            <div class="item">
+                <p>Подарил платок на восьмое марта, моя девушка сказала что это лучший подарок.</p>
+
+                <p><strong>Николай</strong></p>
+            </div>
+
+            <div class="item">
+                <p>Делали корпоративный заказ нашим колегам на 8е марта. Все женщины остались довольны. Очень весенний подарок.</p>
+
+                <p><strong>Марина</strong></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% load crispy_forms_tags %}
+
+<div class="row">
+    <div class="col-lg-offset-2 col-lg-8 text-center">
+        <!-- Small modal -->
+        <br>
+        <button type="button" class="btn btn_tr btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">
+            Написать отзыв
+        </button>
+
+        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title text-primary" id="myModalLabel">Отправить отзыв</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-offset-1 col-lg-10">
+                            <br>
+                            {% crispy review_form %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+    </div>
+</div>
+

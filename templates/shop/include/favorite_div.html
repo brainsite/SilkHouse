@@ -1,0 +1,36 @@
+{% load scarf %}
+{##}
+{#<div class="collapse" id="collapseFavoriteRow">#}
+{#        {% for f in favorites %}#}
+{#            <div class="col-md-3">#}
+{#                {% scarf_thumbnail pk=f %}#}
+{#            </div>#}
+{#        {% endfor %}#}
+{#</div>#}
+
+<div id="collapseFavoriteRow" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFaforite">
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFaforite">
+            <div class="panel-title text-center">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#favorite_row"
+                   href="#collapseFavoriteRow" aria-expanded="false" aria-controls="collapseFavoriteRow">
+                <span class="h1"><small>Вам</small><i class="fa fa-star"></i><small>понравились</small></span>
+                </a>
+            </div>
+        </div>
+        <div class="panel-body">
+        <div class="row">
+            {% for f in favorites %}
+                <div class="col-sm-6 col-md-4  col-lg-3">
+                    {% scarf_thumbnail pk=f %}
+                </div>
+            {% endfor %}
+        </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+

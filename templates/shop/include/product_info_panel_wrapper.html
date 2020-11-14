@@ -1,0 +1,27 @@
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-warning">
+        <div class="panel-heading" role="tab" id="headingInfo">
+            <div class="panel-title">
+
+                <span class="text-left">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseInfo" aria-expanded="true"
+                    aria-controls="collapseInfo">
+                        <span class="h1"> <i class="fa fa-tags"> id.{{ scarf.id }}</i></span>
+                    </a>
+                </span>
+
+                <span id="favorite_div" class="pull-right">
+                    {% include 'shop/include/favorite_btn.html' %}
+                </span>
+
+            </div>
+        </div>
+
+        <div id="collapseInfo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingInfo">
+            {% include 'shop/include/product_info_panel.html' %}
+        </div>
+
+{#        <div class="panel-footer">Panel footer</div>#}
+
+    </div>
+</div>

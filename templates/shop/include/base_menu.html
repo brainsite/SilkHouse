@@ -1,0 +1,72 @@
+{#                # Class Active#}
+{#                <li class="{% active_page request 'skv:silk_delivery' %}"><a href="{% url 'skv:silk_delivery' %}">Оплата и Доставка</a></li>#}
+
+{% if landing %}
+    {#            <li><a href="#tf-home" ><span class="glyphicon glyphicon-home"></span></a></li>#}
+    <li><a href="#tf-about" class="page-scroll">О платках</a></li>
+    <li><a href="#tf-market" class="page-scroll">Каталог</a></li>
+    <li><a href="#tf-care" class="page-scroll">Уход</a></li>
+    <li><a href="#tf-delivery" class="page-scroll">Доставка и Оплата</a></li>
+    <li><a href="#tf-reviews" class="page-scroll">Отзывы</a></li>
+    <li><a href="#tf-contact" class="page-scroll">Контакты</a></li>
+{% else %}
+    {#            <li><a href="#tf-home" ><span class="glyphicon glyphicon-home"></span></a></li>#}
+    <li><a href="{% url 'about' %}">О платках</a></li>
+    {#                    <li class="active"><a href="{% url 'shop:home' %}">Каталог</a></li>#}
+    <li class="active"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        Каталог <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+        <li><a href="{% url 'shop:filter' 'bicolor' %}"><i>Двухцветные</i></a></li>
+        <li><a href="{% url 'shop:filter' 'multicolor' %}"><i>Многоцветные</i></a></li>
+{#        <li><a href="{% url 'shop:filter' 'lite' %}">Тонкий шёлк</a></li>#}
+{#        <li><a href="{% url 'shop:filter' 'hard' %}">Плотный шёлк</a></li>#}
+        <li role="separator" class="divider"></li>
+        <li class="text-center"><a href="{% url 'shop:catalog_color' %}">По цвету</a></li>
+        <li role="separator" class="divider"></li>
+        <li class="text-center"><a href="{% url 'shop:home' %}"><strong>Все</strong></a></li>
+    </ul>
+    </li>
+    <li><a href="{% url 'care' %}">Уход</a></li>
+    <li><a href="{% url 'delivery' %}">Доставка и Оплата</a></li>
+    <li><a href="{% url 'reviews' %}">Отзывы</a></li>
+    <li><a href="{% url 'contact' %}">Контакты</a></li>
+{% endif %}
+
+{% if favorites %}
+    <li>
+        {% if landing %}
+            <a href="{% url 'shop:home' %}">
+                <span class="glyphicon glyphicon-star"></span>({{ favorites|wordcount }})
+            </a>
+        {% else %}
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#favorite_row"
+               href="#collapseFavoriteRow" aria-expanded="false" aria-controls="collapseFavoriteRow" style="color:gold">
+                <span class="glyphicon glyphicon-star"></span>({{ favorites|wordcount }})
+            </a>
+        {% endif %}
+    </li>
+{% endif %}
+
+{% if basket %}
+    <li class="dropdown">
+        {% if landing %}
+            <a href="{% url 'shop:home' %}">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+            </a>
+        {% else %}
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" style="color:gold"
+               aria-expanded="false">
+                <span class="glyphicon glyphicon-shopping-cart">({{ basket.keys|wordcount }})
+                <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+            {% for key, value in basket.items %}
+                <li><a href="{% url 'shop:product' key %}"> Платок id.{{ key }} &nbsp;&nbsp;&nbsp; ({{ value }} шт.)</a></li>
+            {% endfor %}
+                <li role="separator" class="divider"></li>
+                <li><a href="{% url 'shop:basket' %}"> <strong>Оформить заказ</strong> </a></li>
+            </ul>
+            </li>
+        {% endif %}
+{% endif %}
+

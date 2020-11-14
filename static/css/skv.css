@@ -1,0 +1,160 @@
+body {
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+/*Footer*/
+/*http://getbootstrap.com/examples/sticky-footer/*/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+/*Tittle*/
+/*http://wdexplorer.com/20-examples-beautiful-css-typography-design/*/
+#skv_tittle { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 140px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
+
+/*Navibar*/
+.nav > li > a {
+    color:#ffffff;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    color:#ffffff;
+    background-color:#bf9713;
+}
+.nav-pills > li.active > a:hover {
+    color:#ffffff;
+    background-color:#bf9713;
+}
+.nav-pills > li.active > a {
+    background-color:red;
+}
+.nav-pills > li.active > a:hover {
+    color:#ffffff;
+    background-color:red;
+}
+
+
+/*bootstrap-social*/
+/*https://github.com/lipis/bootstrap-social*/
+.btn-vk{color:#fff;background-color:#587ea3;border-color:rgba(0,0,0,0.2)}.btn-vk:hover,.btn-vk:focus,.btn-vk:active,.btn-vk.active,.open>.dropdown-toggle.btn-vk{color:#fff;background-color:#466482;border-color:rgba(0,0,0,0.2)}
+.btn-vk:active,.btn-vk.active,.open>.dropdown-toggle.btn-vk{background-image:none}
+.btn-vk.disabled,.btn-vk[disabled],fieldset[disabled] .btn-vk,.btn-vk.disabled:hover,.btn-vk[disabled]:hover,fieldset[disabled] .btn-vk:hover,.btn-vk.disabled:focus,.btn-vk[disabled]:focus,fieldset[disabled] .btn-vk:focus,.btn-vk.disabled:active,.btn-vk[disabled]:active,fieldset[disabled] .btn-vk:active,.btn-vk.disabled.active,.btn-vk[disabled].active,fieldset[disabled] .btn-vk.active{background-color:#587ea3;border-color:rgba(0,0,0,0.2)}
+.btn-vk .badge{color:#587ea3;background-color:#fff}
+.btn-instagram{color:#fff;background-color:#3f729b;border-color:rgba(0,0,0,0.2)}.btn-instagram:hover,.btn-instagram:focus,.btn-instagram:active,.btn-instagram.active,.open>.dropdown-toggle.btn-instagram{color:#fff;background-color:#305777;border-color:rgba(0,0,0,0.2)}
+.btn-instagram:active,.btn-instagram.active,.open>.dropdown-toggle.btn-instagram{background-image:none}
+.btn-instagram.disabled,.btn-instagram[disabled],fieldset[disabled] .btn-instagram,.btn-instagram.disabled:hover,.btn-instagram[disabled]:hover,fieldset[disabled] .btn-instagram:hover,.btn-instagram.disabled:focus,.btn-instagram[disabled]:focus,fieldset[disabled] .btn-instagram:focus,.btn-instagram.disabled:active,.btn-instagram[disabled]:active,fieldset[disabled] .btn-instagram:active,.btn-instagram.disabled.active,.btn-instagram[disabled].active,fieldset[disabled] .btn-instagram.active{background-color:#3f729b;border-color:rgba(0,0,0,0.2)}
+.btn-instagram .badge{color:#3f729b;background-color:#fff}
+
+/*Thumbnail*/
+/*http://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/*/
+/*http://tympanus.net/Tutorials/OriginalHoverEffects/index3.html*/
+.view {
+    width: 242px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    background: #fff url(../images/landing/bgimg.jpg) no-repeat center center
+}
+.view .mask, .view .content {
+    width: 242px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000
+}
+
+.view-third img {
+    transition: all 0.2s ease-in;
+}
+.view-third .mask {
+	background-color: rgba(0,0,0,0.6);
+	opacity: 0;
+	transform: translate(460px, -100px) rotate(180deg);
+	transition: all 0.2s 0.4s ease-in-out;
+}
+.view-third h2{
+	transform: translateY(-100px);
+	transition: all 0.2s ease-in-out;
+}
+.view-third p {
+	transform: translateX(300px) rotate(90deg);
+	transition: all 0.2s ease-in-out;
+}
+.view-third a.info {
+	transform: translateY(-200px);
+	transition: all 0.2s ease-in-out;
+}
+
+.view-third:hover .mask {
+	opacity:1;
+	transition-delay: 0s;
+	transform: translate(0px, 0px);
+}
+.view-third:hover h2 {
+	transform: translateY(0px);
+	transition-delay: 0.5s;
+}
+.view-third:hover p	{
+    transform: translateX(0px) rotate(0deg);
+	transition-delay: 0.4s;
+}
+.view-third:hover a.info {
+	transform: translateY(0px);
+	transition-delay: 0.3s;
+}
