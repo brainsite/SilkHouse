@@ -2,321 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="250e9735-f3da-459a-9834-bbc30b2f2f5c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/landing/Varanasi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/landing/about.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/landing/bgimg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/landing/care.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/landing/home.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/landing/reviews.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_bleach.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_bleach.thumbnail" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_dryclean.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_dryclean.thumbnail" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_steam.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_steam.thumbnail" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_tumble_dry.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_tumble_dry.thumbnail" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_wring.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_wring.thumbnail" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/drip_dry.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/drip_dry.thumbnail" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/dry_flat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/dry_flat.thumbnail" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/dry_in_shade.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/dry_in_shade.thumbnail" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/hand_wash.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/hand_wash.thumbnail" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/iron_low.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/iron_low.thumbnail" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/Clothes-on-a-washing-line-016.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/Varanasi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/about.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/care.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/client/01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/client/02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/client/03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/client/04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/client/05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/client/06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/client/07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/home.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/portfolio/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/portfolio/02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/portfolio/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/portfolio/04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/portfolio/05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/portfolio/06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/portfolio/07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/portfolio/08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/reviews.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/team/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/team/02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/team/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/img/team/04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/skv-public-silkdjango-92f06feca5fc.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SilkDjango/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SilkDjango/local_settings_AWS.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SilkDjango/local_settings_dev.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SilkDjango/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SilkDjango/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SilkDjango/wsgi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/colors16/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/colors16/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/colors16/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/colors16/migrations/0002_colors_alias.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/colors16/migrations/0003_auto_20150615_0931.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/colors16/migrations/0004_auto_20150615_1114.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/colors16/migrations/0005_auto_20150615_1117.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/colors16/migrations/0006_auto_20150615_1322.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/colors16/migrations/0007_auto_20150616_1339.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/colors16/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/colors16/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/colors16/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/colors16/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/form.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/templatetags/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/templatetags/scarf.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/req.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/migrations/0002_auto_20150615_0134.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/migrations/0003_auto_20150615_0931.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/migrations/0004_scarf_s_color.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/migrations/0005_scarf_hide.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/migrations/0006_auto_20150615_1322.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/migrations/0007_auto_20150615_1339.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/migrations/0008_auto_20150616_1339.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/migrations/0009_auto_20150616_1609.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/migrations/0010_remove_scarf_photo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/migrations/0011_auto_20150616_1628.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/migrations/0012_auto_20150620_1901.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/migrations/0013_auto_20150620_1902.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/migrations/0014_scarf_male.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/migrations/0015_auto_20150620_1942.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/migrations/0016_auto_20150625_2140.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/migrations/0017_remove_scarf_photo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skv/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skv/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skv/form.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skv/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skv/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skv/templatetags/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skv/templatetags/ajax_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skv/templatetags/extra.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skv/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skv/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skv/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skv/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-3.3.2-dist/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-3.3.2-dist/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-3.3.2-dist/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-3.3.2-dist/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-3.3.2-dist/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-3.3.2-dist/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-3.3.2-dist/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-3.3.2-dist/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-3.3.2-dist/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-magnify/css/bootstrap-magnify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-magnify/css/bootstrap-magnify.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-magnify/js/bootstrap-magnify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap-magnify/js/bootstrap-magnify.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/admin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/extra/thumbnail.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/landing.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/shop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/silk.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/skv.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/starter-template.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/the-big-picture.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome-4.3.0/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_bleach.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_bleach_white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_dryclean.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_dryclean_white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_steam.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_steam_white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_tumble_dry.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_tumble_dry_white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_wring.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/do_not_wring_white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/drip_dry.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/drip_dry_white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/dry_flat.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/dry_flat_white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/dry_in_shade.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/dry_in_shade_white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/hand_wash.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/hand_wash_white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/info.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/iron_low.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/laundry/iron_low_white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-1.11.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.backstretch.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/css/my.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/css/owl.carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/css/owl.theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/css/responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/css/stylesilk.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/font-awesome/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/fonts/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/js/SmoothScroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/js/jquery.1.11.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/js/jquery.isotope.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/js/modernizr.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/spirit8/js/owl.carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/demo/spirit8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/info.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/landing/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/landing/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/landing/care.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/landing/catalog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/landing/contacts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/landing/delivery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/landing/reviews.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/basket.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/big_picture.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/colors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/extra/color_row.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/extra/thumbnail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/include/base_footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/include/base_head.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/include/base_menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/include/basket_btn_product.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/include/basket_div.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/include/catalog_pagination.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/include/favorite_btn.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/include/favorite_div.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/include/product_info_panel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/include/product_info_panel_wrapper.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/scarf.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/scarf_bg.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/silk/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/silk/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/silk/base_footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/silk/base_head.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/silk/care.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/silk/contacts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/silk/delivery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/silk/extra/thumbnails.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/silk/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/skv/ajax_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/skv/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/skv/contacts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/skv/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/skv/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/thumb.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="skv-public-silkdjango-92f06feca5fc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -344,10 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SilkDjango/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.028764805">
+            <state vertical-scroll-proportion="0.0">
               <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="48" selection-end-column="15" />
               <folding />
             </state>
@@ -364,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local_settings_AWS.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="local_settings_AWS.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SilkDjango/local_settings_AWS.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
@@ -450,6 +136,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+    <push-targets>
+      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="origin" target-branch="main" />
+    </push-targets>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -625,8 +322,24 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/core/migrations" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="271" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="299" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="301" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="975" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="293" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="292" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="293" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="968" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RunManager" selected="Django server.skv-public-silkdjango-92f06feca5fc">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -884,22 +597,30 @@
       <option name="number" value="Default" />
       <updated>1605375644018</updated>
     </task>
+    <task id="LOCAL-00001" summary="First">
+      <created>1605386890705</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605386890705</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-574" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15778251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2567714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15778251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2567714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -912,6 +633,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="First" />
+    <option name="LAST_COMMIT_MESSAGE" value="First" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1014,6 +740,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,6 +748,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,6 +756,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1035,6 +766,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,6 +774,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,6 +782,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1184,18 +918,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SilkDjango/local_settings_AWS.py">
+    <entry file="file://$PROJECT_DIR$/SilkDjango/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="48" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SilkDjango/settings.py">
+    <entry file="file://$PROJECT_DIR$/SilkDjango/local_settings_AWS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028764805">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="48" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
